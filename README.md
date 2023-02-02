@@ -1,11 +1,17 @@
-1. Node Js (Backend)
+=================================================================================================
+** This is a simple crud application for keeping the users data using listed technology below: **
+=================================================================================================
 
-Database :
------------------------------------------------
+## Backend :
+
+Node Js (Backend)
+
+## Database :
+
 1. MongoDB (Database)
 
-Pacakage Module: 
------------------------------------------------
+## Pacakage Module:
+
 1. Express Js (Framework Based On NodeJs)
 2. Mongoose (Object Data Modelling (ODM) library)
 3. EJS (Embedded Javascript Templating Engine)
@@ -14,8 +20,8 @@ Pacakage Module:
 6. Dotenv (Environment Variable)
 7. Nodemon (Monitoring Server)
 
-Frontend Library
-----------------------------------------------------
+## Frontend Library
+
 1. Bootstrap 5
 2. DataTable (Pagination, Sorting,etc.)
 3. Fontawesome
