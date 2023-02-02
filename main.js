@@ -33,11 +33,11 @@ app.use(
 );
 
 app.use((req, res, next) => {
-  // res.local.message = req.session.message;
-  // delete req.session.message;
+  res.locals.message = req.session.message;
+  delete req.session.message;
   next();
 });
-
+app.use(express.static('uploads'));
 //set template engine
 app.set('view engine', 'ejs');
 
